@@ -86,6 +86,7 @@ dependencies {
     ksp(libs.hilt.compiler)                      // Generates Hilt component/injection code
     implementation(libs.hilt.navigation.compose) // hiltViewModel() in Composables
 
+
     // --- Testing ---
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
